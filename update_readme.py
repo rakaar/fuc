@@ -1,4 +1,4 @@
-
+print('Updating README...')
 import os
 import re
 
