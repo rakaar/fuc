@@ -1,7 +1,8 @@
 # FUC (Frequently Used Codes)
 
 ## Neural
-1. [Calculate Spiketime Tiling coefficient (STTC) between two spike trains](https://github.com/rakaar/fuc/blob/master/./neural/my_sttc.m). Usage: `sttc = my_sttc(spiketrain_a, spiketrain_b, dt)`
+1. [Returns if 2 neurons are connected or not based on noise correlation and bootsrapping](https://github.com/rakaar/fuc/blob/master/./neural/is_connected_based_on_noise_corr_and_bootstrap.m). Usage: `is_connected = is_connected_based_on_noise_correlation_and_bootstrap(noise_vec1, noise_vec2, confidence)`
+2. [Calculate Spiketime Tiling coefficient (STTC) between two spike trains](https://github.com/rakaar/fuc/blob/master/./neural/my_sttc.m). Usage: `sttc = my_sttc(spiketrain_a, spiketrain_b, dt)`
 
 ## Statistical tests
 1. [Normality test - 0 = normal, 1 = not normal - Performs Lilliefors, Anderson-Darling, Jarque-Bera, and Shapiro-Wilk tests](https://github.com/rakaar/fuc/blob/master/./statistical_tests/normality_tests.m). Usage: `normality_tests(x)`
