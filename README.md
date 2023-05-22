@@ -2,7 +2,8 @@
 
 ## Neural
 1. [Returns if 2 neurons are connected or not based on noise correlation and bootsrapping](https://github.com/rakaar/fuc/blob/master/./neural/is_connected_based_on_noise_corr_and_bootstrap.m). Usage: `is_connected = is_connected_based_on_noise_correlation_and_bootstrap(noise_vec1, noise_vec2, confidence)`
-2. [Calculate Spiketime Tiling coefficient (STTC) between two spike trains](https://github.com/rakaar/fuc/blob/master/./neural/my_sttc.m). Usage: `sttc = my_sttc(spiketrain_a, spiketrain_b, dt)`
+2. [INCOMPLETE - need to decide on threshold - Calculate timing of first spike due to stimulus(distinguish stimulus-driven spike from spontaneous spike), based on Chase & Young, 2007, PNAS](https://github.com/rakaar/fuc/blob/master/./neural/first_spike_due_to_stimulus.m). Usage: `time = first_spike_due_to_stimulus(spike_data, spontaneous_rate)`
+3. [Calculate Spiketime Tiling coefficient (STTC) between two spike trains](https://github.com/rakaar/fuc/blob/master/./neural/my_sttc.m). Usage: `sttc = my_sttc(spiketrain_a, spiketrain_b, dt)`
 
 ## Statistical tests
 1. [Normality test - 0 = normal, 1 = not normal - Performs Lilliefors, Anderson-Darling, Jarque-Bera, and Shapiro-Wilk tests](https://github.com/rakaar/fuc/blob/master/./statistical_tests/normality_tests.m). Usage: `normality_tests(x)`
