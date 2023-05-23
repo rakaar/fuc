@@ -1,4 +1,4 @@
-% Performs Unpaired t-test, Wilcoxon rank sum test, Kolmogorov-Smirnov test,F-test
+% Performs Unpaired t-test(2 & 1 tailed), Wilcoxon rank sum test(2 & 1 tailed), Kolmogorov-Smirnov test,F-test
 % unpaired_tests(x,y)
 function unpaired_tests(x,y)
 
