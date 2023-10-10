@@ -8,7 +8,8 @@
 ## Statistical tests
 1. [Normality test - 0 = normal, 1 = not normal - Performs Lilliefors, Anderson-Darling, Jarque-Bera, and Shapiro-Wilk tests](https://github.com/rakaar/fuc/blob/master/./statistical_tests/normality_tests.m). Usage: `normality_tests(x)`
 2. [Performs Paired t-test, Wilcoxon signed rank test, both one-tailed and two-tailed](https://github.com/rakaar/fuc/blob/master/./statistical_tests/paired_tests.m). Usage: `paired_tests(x,y)`
-3. [Performs Unpaired t-test(2 & 1 tailed), Wilcoxon rank sum test(2 & 1 tailed), Kolmogorov-Smirnov test,F-test](https://github.com/rakaar/fuc/blob/master/./statistical_tests/unpaired_tests.m). Usage: `unpaired_tests(x,y)`
+3. [function [chi_sq_val, p_val] = chi_sq_test_of_ind(data_table)](https://github.com/rakaar/fuc/blob/master/./statistical_tests/chi_sq_test_of_ind.m). Usage: ``
+4. [Performs Unpaired t-test(2 & 1 tailed), Wilcoxon rank sum test(2 & 1 tailed), Kolmogorov-Smirnov test,F-test](https://github.com/rakaar/fuc/blob/master/./statistical_tests/unpaired_tests.m). Usage: `unpaired_tests(x,y)`
 
 ## Visualizations
 1. [Scatter plot and compute correlation coefficient](https://github.com/rakaar/fuc/blob/master/./visualizations/my_scatter.m). Usage: `my_scatter(rand(1,10), rand(1,10), 'Example Title', 'X label', 'Y label')`
